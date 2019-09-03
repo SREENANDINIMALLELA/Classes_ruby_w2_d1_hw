@@ -4,4 +4,5 @@ class RentalDetail
     @student_name = student_name
     @date =date
 end
+
 end
