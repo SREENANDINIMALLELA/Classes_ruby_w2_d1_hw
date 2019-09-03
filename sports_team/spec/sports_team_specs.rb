@@ -1,7 +1,7 @@
 require('minitest/autorun')
 require('minitest/rg')
 require_relative('../sports_team.rb')
-class TestBankAccount < Minitest::Test
+class TestSportsTeam< Minitest::Test
   def setup
     @sports_team1 = SportsTeam.new("SVN" , ["Nandu", "Ved", "Uday"], "chinna")
   end
